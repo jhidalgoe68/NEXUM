@@ -114,7 +114,7 @@ export default function Contacto() {
     } catch {
       setStatus({
         type: 'error',
-        message: 'Error de conexion. Verifica tu red e intenta de nuevo, o escribenos a contact@nexum-latam.com.'
+        message: 'Error de conexion. Verifica tu red e intenta de nuevo, o escribenos a jhidalgo@nexum-latam.com.'
       })
     } finally {
       setIsSubmitting(false)

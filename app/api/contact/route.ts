@@ -45,8 +45,9 @@ export async function POST(request: NextRequest) {
     }
 
     // Send email using Resend
-    const { error } = await resend.emails.send({
-      from: 'NEXUM <no-reply@nexum-latam.com>',
+    // Note: Using Resend's default sender. To use your own domain, verify it in Resend dashboard.
+    const { data, error } = await resend.emails.send({
+      from: 'NEXUM Contact <onboarding@resend.dev>',
       to: ['jhidalgo@nexum-latam.com'],
       replyTo: body.em,
       subject: 'Nuevo mensaje desde el formulario Conversemos',
@@ -86,12 +87,13 @@ export async function POST(request: NextRequest) {
     if (error) {
       console.error('Resend error:', error)
       return NextResponse.json(
-        { message: 'Error al enviar el mensaje. Por favor intenta de nuevo.' },
+        { message: `Error al enviar el mensaje: ${error.message}` },
         { status: 500 }
       )
     }
 
-    return NextResponse.json({ success: true })
+    console.log('Email sent successfully:', data)
+    return NextResponse.json({ success: true, message: 'Mensaje enviado correctamente' })
   } catch (error) {
     console.error('Contact form error:', error)
     return NextResponse.json(
