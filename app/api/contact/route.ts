@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
     // Note: Using Resend's default sender. To use your own domain, verify it in Resend dashboard.
     const { data, error } = await resend.emails.send({
       from: 'NEXUM Contact <onboarding@resend.dev>',
-      to: ['jhidalgo@nexum-latam.com'],
+      to: ['jhidalgoe68@gmail.com'],
       replyTo: body.em,
       subject: 'Nuevo mensaje desde el formulario Conversemos',
       html: `
