@@ -2,17 +2,16 @@ import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
 // Initialize Resend with API key from environment variable
-// You'll need to add RESEND_API_KEY to your environment variables
 const resend = new Resend(process.env.RESEND_API_KEY)
 
 interface ContactFormData {
-  fn: string  // full name
-  co: string  // company
-  ro: string  // role
-  em: string  // email
-  ph: string  // phone
-  ch: string  // challenge
-  ms: string  // message
+  fn: string   // full name (name)
+  co: string   // company
+  ro: string   // role
+  em: string   // email
+  ph: string   // phone
+  ch: string   // challenge
+  ms: string   // message
 }
 
 export async function POST(request: NextRequest) {
@@ -40,47 +39,47 @@ export async function POST(request: NextRequest) {
     if (!process.env.RESEND_API_KEY) {
       console.error('RESEND_API_KEY is not configured')
       return NextResponse.json(
-        { message: 'El servicio de correo no esta configurado. Por favor contactenos directamente a contact@nexum-latam.com' },
+        { message: 'El servicio de correo no esta configurado. Por favor contactenos directamente a jhidalgo@nexum-latam.com' },
         { status: 500 }
       )
     }
 
     // Send email using Resend
     const { error } = await resend.emails.send({
-      from: 'NEXUM Contact Form <onboarding@resend.dev>', // Change to your verified domain
-      to: ['contact@nexum-latam.com'], // Recipient email
+      from: 'NEXUM <no-reply@nexum-latam.com>',
+      to: ['jhidalgo@nexum-latam.com'],
       replyTo: body.em,
-      subject: `Nuevo contacto NEXUM: ${body.fn} - ${body.ch}`,
+      subject: 'Nuevo mensaje desde el formulario Conversemos',
       html: `
-        <h2>Nueva solicitud de conversacion ejecutiva</h2>
-        <table style="font-family: sans-serif; border-collapse: collapse; width: 100%;">
+        <h2>Nuevo mensaje desde el formulario Conversemos</h2>
+        <table style="font-family: sans-serif; border-collapse: collapse; width: 100%; max-width: 600px;">
           <tr>
-            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Nombre:</strong></td>
-            <td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(body.fn)}</td>
+            <td style="padding: 12px; border: 1px solid #ddd; background: #f9f9f9; width: 30%;"><strong>Nombre:</strong></td>
+            <td style="padding: 12px; border: 1px solid #ddd;">${escapeHtml(body.fn)}</td>
           </tr>
           <tr>
-            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Empresa:</strong></td>
-            <td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(body.co) || 'No especificado'}</td>
+            <td style="padding: 12px; border: 1px solid #ddd; background: #f9f9f9;"><strong>Email:</strong></td>
+            <td style="padding: 12px; border: 1px solid #ddd;"><a href="mailto:${escapeHtml(body.em)}">${escapeHtml(body.em)}</a></td>
           </tr>
           <tr>
-            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Cargo:</strong></td>
-            <td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(body.ro) || 'No especificado'}</td>
+            <td style="padding: 12px; border: 1px solid #ddd; background: #f9f9f9;"><strong>Telefono:</strong></td>
+            <td style="padding: 12px; border: 1px solid #ddd;"><a href="tel:${escapeHtml(body.ph)}">${escapeHtml(body.ph)}</a></td>
           </tr>
           <tr>
-            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Email:</strong></td>
-            <td style="padding: 8px; border: 1px solid #ddd;"><a href="mailto:${escapeHtml(body.em)}">${escapeHtml(body.em)}</a></td>
+            <td style="padding: 12px; border: 1px solid #ddd; background: #f9f9f9;"><strong>Empresa:</strong></td>
+            <td style="padding: 12px; border: 1px solid #ddd;">${escapeHtml(body.co) || 'No especificado'}</td>
           </tr>
           <tr>
-            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Telefono:</strong></td>
-            <td style="padding: 8px; border: 1px solid #ddd;"><a href="tel:${escapeHtml(body.ph)}">${escapeHtml(body.ph)}</a></td>
+            <td style="padding: 12px; border: 1px solid #ddd; background: #f9f9f9;"><strong>Cargo:</strong></td>
+            <td style="padding: 12px; border: 1px solid #ddd;">${escapeHtml(body.ro) || 'No especificado'}</td>
           </tr>
           <tr>
-            <td style="padding: 8px; border: 1px solid #ddd;"><strong>Desafio:</strong></td>
-            <td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(body.ch)}</td>
+            <td style="padding: 12px; border: 1px solid #ddd; background: #f9f9f9;"><strong>Desafio:</strong></td>
+            <td style="padding: 12px; border: 1px solid #ddd;">${escapeHtml(body.ch)}</td>
           </tr>
         </table>
-        <h3>Contexto:</h3>
-        <p style="white-space: pre-wrap; background: #f5f5f5; padding: 16px; border-radius: 4px;">${escapeHtml(body.ms)}</p>
+        <h3 style="margin-top: 24px;">Mensaje:</h3>
+        <div style="white-space: pre-wrap; background: #f5f5f5; padding: 16px; border-radius: 4px; font-family: sans-serif;">${escapeHtml(body.ms)}</div>
       `,
     })
 
