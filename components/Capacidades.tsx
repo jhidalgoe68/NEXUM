@@ -51,7 +51,7 @@ export default function Capacidades() {
 
         <div className="cap-hdr">
           <h2 className="cap-title reveal">
-            Cuatro lineas<br />para la <i>complejidad</i><br />real.
+            Cuatro líneas<br />para la <i>complejidad</i><br />real.
           </h2>
           <p className="cap-intro reveal d1">
             Soluciones integradas diseñadas para organizaciones donde la estrategia, la operación y la tecnología convergen — y donde cada decisión tiene consecuencias medibles en el resultado del negocio.
