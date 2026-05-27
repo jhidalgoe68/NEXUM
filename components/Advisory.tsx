@@ -27,8 +27,8 @@ export default function Advisory() {
               />
             </div>
             <div className="portrait-caption">
-              <p className="portrait-name">Javier Alfredo Hidalgo Estevez</p>
-              <p className="portrait-role">Fundador & Director · NEXUM</p>
+              <p className="portrait-name">Javier Alfredo Hidalgo Estévez</p>
+              <p className="portrait-role">Fundador & Director · NEXUM-LATAM</p>
             </div>
           </div>
 
