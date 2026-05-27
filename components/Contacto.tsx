@@ -139,7 +139,7 @@ export default function Contacto() {
             <div className="marker marker--dk reveal">07 / Conversemos</div>
 
             <h2 className="contact-headline reveal">
-              ¿Tu organizacion<br />navega en<br /><i>aguas complejas?</i>
+              ¿Tu organización<br />navega en<br /><i>aguas complejas?</i>
             </h2>
 
             <p className="contact-body reveal d1">
@@ -157,7 +157,7 @@ export default function Contacto() {
               </div>
               <div>
                 <p className="ci-label">LinkedIn</p>
-                <p className="ci-val"><a href="https://www.linkedin.com/in/javier-hidalgo-330421107/" target="_blank" rel="noopener noreferrer">Javier Hidalgo Estevez ↗</a></p>
+                <p className="ci-val"><a href="https://www.linkedin.com/in/javier-hidalgo-330421107/" target="_blank" rel="noopener noreferrer">Javier Hidalgo Estévez ↗</a></p>
               </div>
               <div>
                 <p className="ci-label">Region</p>
