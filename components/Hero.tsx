@@ -29,7 +29,7 @@ export default function Hero() {
         <aside className="hero-stats" aria-label="Cifras clave">
           <div className="stat">
             <span className="stat-num">30<sup>+</sup></span>
-            <p className="stat-lbl">anos de experiencia ejecutiva en LATAM</p>
+            <p className="stat-lbl">años de experiencia ejecutiva en LATAM</p>
           </div>
           <div className="stat">
             <span className="stat-num">4</span>
