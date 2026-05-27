@@ -13,7 +13,7 @@ export default function Perspectivas() {
             Ideas que<br />mueven <i>decisiones.</i>
           </h2>
           <p className="blog-intro reveal d1">
-            Reflexiones estrategicas sobre transformacion, liderazgo y el valor de la complejidad bien gestionada. Sin tendencias pasajeras — solo perspectiva ejecutiva de largo plazo.
+            Reflexiones estratégicas sobre transformación, liderazgo y el valor de la complejidad bien gestionada. Sin tendencias pasajeras — solo perspectiva ejecutiva de largo plazo.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export default function Perspectivas() {
             </div>
             <div>
               <p className="blog-featured-excerpt">
-                Implementar inteligencia artificial sin claridad estrategica no genera valor — genera complejidad adicional. El verdadero diferencial competitivo no es la tecnologia que adoptas, sino la calidad de las decisiones que tomas con ella. Una reflexion sobre por que el 70% de los proyectos de AI en LATAM no alcanzan su ROI proyectado — y que hacen diferente los que si lo logran.
+                Implementar inteligencia artificial sin claridad estrategica no genera valor — genera complejidad adicional. El verdadero diferencial competitivo no es la tecnología que adoptas, sino la calidad de las decisiones que tomas con ella. Una reflexión sobre por que el 70% de los proyectos de AI en LATAM no alcanzan su ROI proyectado — y que hacen diferente los que si lo logran.
               </p>
               <Link href="#" className="blog-read-more">Leer perspectiva <span className="arr">→</span></Link>
             </div>
@@ -54,8 +54,8 @@ export default function Perspectivas() {
                 <span className="blog-cat">Eficiencia Operativa</span>
                 <span className="blog-date">Nov 2025</span>
               </div>
-              <h4 className="blog-card-title">Automatizacion sin rediseno: por que solo acelera el caos</h4>
-              <p className="blog-card-excerpt">Automatizar un proceso ineficiente no lo mejora — lo perpetua a mayor velocidad. El diagnostico previo es donde se genera el valor real.</p>
+              <h4 className="blog-card-title">Automatización sin rediseño: por que solo acelera el caos</h4>
+              <p className="blog-card-excerpt">Automatizar un proceso ineficiente no lo mejora — lo perpetua a mayor velocidad. El diagnóstico previo es donde se genera el valor real.</p>
               <span className="blog-card-arrow">→</span>
             </Link>
 
@@ -64,8 +64,8 @@ export default function Perspectivas() {
                 <span className="blog-cat">Liderazgo Ejecutivo</span>
                 <span className="blog-date">Oct 2025</span>
               </div>
-              <h4 className="blog-card-title">El CIO como arquitecto de valor: mas alla de la gestion tecnologica</h4>
-              <p className="blog-card-excerpt">El rol del CIO ha evolucionado. Ya no se trata de administrar infraestructura — se trata de disenar el futuro operativo.</p>
+              <h4 className="blog-card-title">El CIO como arquitecto de valor: más allá de la gestión tecnológica</h4>
+              <p className="blog-card-excerpt">El rol del CIO ha evolucionado. Ya no se trata de administrar infraestructura — se trata de diseñar el futuro operativo.</p>
               <span className="blog-card-arrow">→</span>
             </Link>
           </div>
