@@ -143,7 +143,7 @@ export default function Contacto() {
             </h2>
 
             <p className="contact-body reveal d1">
-              Ofrecemos una primera conversacion ejecutiva — sin compromiso, sin presentaciones genericas. Treinta a cuarenta y cinco minutos para entender tu contexto, identificar oportunidades reales y evaluar como podemos generar valor juntos.
+              Ofrecemos una primera conversación ejecutiva — sin compromiso, sin presentaciones genéricas. Treinta a cuarenta y cinco minutos para entender tu contexto, identificar oportunidades reales y evaluar como podemos generar valor juntos.
             </p>
 
             <div className="contact-info reveal d2">
@@ -152,7 +152,7 @@ export default function Contacto() {
                 <p className="ci-val"><a href="mailto:contact@nexum-latam.com">contact@nexum-latam.com</a></p>
               </div>
               <div>
-                <p className="ci-label">Telefono</p>
+                <p className="ci-label">Teléfono</p>
                 <p className="ci-val"><a href="tel:+50670104381">+506 7010-4381</a></p>
               </div>
               <div>
@@ -246,11 +246,11 @@ export default function Contacto() {
                   onChange={(e) => handleChange('ch', e.target.value)}
                 >
                   <option value="" disabled>Selecciona un area</option>
-                  <option>Transformacion digital y adopcion de AI</option>
+                  <option>Transformacion digital y adopción de AI</option>
                   <option>Gobernanza de datos</option>
-                  <option>Eficiencia operativa y optimizacion de procesos</option>
-                  <option>Gobierno tecnologico y priorizacion</option>
-                  <option>Advisory ejecutivo y decisiones estrategicas</option>
+                  <option>Eficiencia operativa y optimización de procesos</option>
+                  <option>Gobierno tecnológico y priorización</option>
+                  <option>Advisory ejecutivo y decisiones estratégicas</option>
                   <option>Ciberseguridad</option>
                   <option>Continuidad de negocio</option>
                   <option>Otro</option>

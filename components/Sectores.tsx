@@ -6,72 +6,72 @@ const sectorsData = [
   {
     n: '01',
     title: 'Banca & Servicios Financieros',
-    desc: 'Las instituciones financieras enfrentan una transformacion estructural sin precedentes: presion regulatoria creciente, competencia de neobancos, y la necesidad de modernizar plataformas core sin interrumpir la operacion. NEXUM acompana a bancos, aseguradoras y entidades financieras a navegar esta complejidad con rigor y vision estrategica.',
+    desc: 'Las instituciones financieras enfrentan una transformación estructural sin precedentes: presión regulatoria creciente, competencia de neobancos, y la necesidad de modernizar plataformas core sin interrumpir la operación. NEXUM-Latam acompaña a bancos, aseguradoras y entidades financieras a navegar esta complejidad con rigor y visión estratégica.',
     points: [
-      'Transformacion digital y modernizacion de core bancario',
-      'Cumplimiento regulatorio y gestion de riesgo operativo',
-      'Optimizacion de procesos de credito, cobranza y back-office',
-      'Adopcion estrategica de AI en scoring, fraude y atencion al cliente'
+      'Transformación digital y modernizacion de core bancario',
+      'Cumplimiento regulatorio y gestión de riesgo operativo',
+      'Optimización de procesos de crédito, cobranza y back-office',
+      'Adopción estratégica de AI en scoring, fraude y atención al cliente'
     ],
     tags: ['Core Banking', 'Regulatorio', 'AI Financiera', 'Riesgo Operativo']
   },
   {
     n: '02',
     title: 'Retail & Consumo Masivo',
-    desc: 'El retail enfrenta la convergencia del canal fisico y digital, la volatilidad de la demanda y margenes bajo presion constante. La eficiencia operativa ya no es diferencial — es condicion de supervivencia. Trabajamos con retailers y empresas de consumo masivo para transformar sus cadenas de valor con precision analitica y claridad ejecutiva.',
+    desc: 'El retail enfrenta la convergencia del canal físico y digital, la volatilidad de la demanda y margenes bajo presión constante. La eficiencia operativa ya no es diferencial — es condición de supervivencia. Trabajamos con retailers y empresas de consumo masivo para transformar sus cadenas de valor con precisión analítica y claridad ejecutiva.',
     points: [
-      'Optimizacion de cadena de suministro y gestion de inventarios',
-      'Transformacion de experiencia de cliente omnicanal',
+      'Optimización de cadena de suministro y gestión de inventarios',
+      'Transformación de experiencia de cliente omnicanal',
       'Eficiencia en procesos de merchandising y punto de venta',
-      'Adopcion de AI para forecasting y gestion de demanda'
+      'Adopción de AI para forecasting y gestión de demanda'
     ],
     tags: ['Supply Chain', 'Omnicanal', 'Forecasting', 'Eficiencia']
   },
   {
     n: '03',
-    title: 'Energia, Utilities & Infraestructura',
-    desc: 'Las empresas de energia e infraestructura critica operan en entornos de alta exigencia regulatoria, activos de larga vida util y presion creciente hacia la transicion energetica. La transformacion operativa en este sector requiere precision tecnica, vision estrategica y gestion rigurosa del cambio.',
+    title: 'Energía, Utilities & Infraestructura',
+    desc: 'Las empresas de energía e infraestructura crítica operan en entornos de alta exigencia regulatoria, activos de larga vida útil y presión creciente hacia la transición energética. La transformación operativa en este sector requiere precisión técnica, visión estratégica y gestión rigurosa del cambio.',
     points: [
-      'Gestion y optimizacion de activos fisicos criticos',
-      'Transformacion de servicios y canales de atencion',
-      'Automatizacion de operaciones y mantenimiento predictivo',
-      'Gobierno de datos y analitica operativa'
+      'Gestión y optimización de activos físicos críticos',
+      'Transformación de servicios y canales de atención',
+      'Automatización de operaciones y mantenimiento predictivo',
+      'Gobierno de datos y analítica operativa'
     ],
     tags: ['Asset Management', 'Transicion Energetica', 'Operaciones', 'Smart Grid']
   },
   {
     n: '04',
-    title: 'Telecomunicaciones & Tecnologia',
-    desc: 'Las empresas de telecomunicaciones y tecnologia operan en mercados de alta competencia, con ciclos de innovacion acelerados y presion constante sobre margenes. El diferencial competitivo radica en la velocidad de ejecucion y la eficiencia operativa.',
+    title: 'Telecomunicaciones & Tecnología',
+    desc: 'Las empresas de telecomunicaciones y tecnología operan en mercados de alta competencia, con ciclos de innovación acelerados y presión constante sobre margenes. El diferencial competitivo radica en la velocidad de ejecución y la eficiencia operativa.',
     points: [
-      'Optimizacion de operaciones de red y servicio al cliente',
-      'Transformacion de procesos comerciales y de soporte',
-      'Gobierno de datos y monetizacion de activos digitales',
-      'Adopcion estrategica de AI en operaciones y experiencia'
+      'Optimización de operaciones de red y servicio al cliente',
+      'Transformación de procesos comerciales y de soporte',
+      'Gobierno de datos y monetización de activos digitales',
+      'Adopción estratégica de AI en operaciones y experiencia'
     ],
     tags: ['Network Ops', 'CX Digital', 'Data Monetization', 'AI Operativa']
   },
   {
     n: '05',
-    title: 'Manufactura & Logistica',
-    desc: 'La manufactura y logistica enfrentan la convergencia de presion de costos, disrupciones de cadena de suministro y la necesidad de adoptar tecnologias de industria 4.0. La eficiencia operativa y la visibilidad end-to-end son condiciones de competitividad.',
+    title: 'Manufactura & Logística',
+    desc: 'La manufactura y logística enfrentan la convergencia de presión de costos, disrupciones de cadena de suministro y la necesidad de adoptar tecnologías de industria 4.0. La eficiencia operativa y la visibilidad end-to-end son condiciones de competitividad.',
     points: [
-      'Optimizacion de procesos de produccion y calidad',
-      'Transformacion de cadena de suministro y logistica',
-      'Adopcion de tecnologias de industria 4.0',
-      'Gobierno de datos industriales y analitica predictiva'
+      'Optimización de procesos de producción y calidad',
+      'Transformación de cadena de suministro y logística',
+      'Adopción de tecnologías de industria 4.0',
+      'Gobierno de datos industriales y analítica predictiva'
     ],
     tags: ['Industria 4.0', 'Supply Chain', 'Lean Operations', 'Predictive']
   },
   {
     n: '06',
     title: 'Salud',
-    desc: 'El sector salud enfrenta demandas crecientes de calidad, eficiencia y experiencia del paciente, con presion regulatoria y de costos. La transformacion digital y operativa es condicion de sostenibilidad.',
+    desc: 'El sector salud enfrenta demandas crecientes de calidad, eficiencia y experiencia del paciente, con presión regulatoria y de costos. La transformacion digital y operativa es condición de sostenibilidad.',
     points: [
-      'Optimizacion de procesos clinicos y administrativos',
-      'Transformacion de experiencia del paciente',
+      'Optimización de procesos clínicos y administrativos',
+      'Transformación de experiencia del paciente',
       'Gobierno de datos de salud y cumplimiento regulatorio',
-      'Adopcion de AI en diagnostico y operaciones'
+      'Adopción de AI en diagnóstico y operaciones'
     ],
     tags: ['Health IT', 'Patient Experience', 'Clinical Ops', 'AI Health']
   }

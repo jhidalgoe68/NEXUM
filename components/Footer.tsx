@@ -18,7 +18,7 @@ export default function Footer() {
       <span className="foot-copy">© 2026 NEXUM-Latam Advisory · Todos los derechos reservados</span>
       <div className="foot-links">
         <Link href="mailto:contact@nexum-latam.com">Contacto</Link>
-        <Link href="https://www.linkedin.com/in/javier-hidalgo-330421107/" target="_blank" rel="noopener noreferrer">LinkedIn</Link>
+        <Link href="https://www.linkedin.com/in/javier-hidalgo-estevez/" target="_blank" rel="noopener noreferrer">LinkedIn</Link>
       </div>
     </footer>
   )

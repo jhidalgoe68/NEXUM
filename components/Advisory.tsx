@@ -34,33 +34,33 @@ export default function Advisory() {
 
           <div className="advisory-content">
             <h2 className="advisory-headline reveal">
-              Treinta anos<br />en el centro de<br /><i>decisiones que definen empresas.</i>
+              Treinta años<br />en el centro de<br /><i>decisiones que definen empresas.</i>
             </h2>
 
             <p className="advisory-p reveal d1">
-              Con mas de 30 anos liderando iniciativas de transformacion tecnologica y operativa en organizaciones financieras y empresas multinacionales en America Latina, Javier aporta algo que las firmas convencionales raramente pueden ofrecer: experiencia ejecutiva real en el mismo nivel donde las decisiones estrategicas se toman.
+              Con mas de 30 años liderando iniciativas de transformación tecnológica y operativa en organizaciones financieras y empresas multinacionales en América Latina, Javier aporta algo que las firmas convencionales raramente pueden ofrecer: experiencia ejecutiva real en el mismo nivel donde las decisiones estrategicas se toman.
             </p>
 
             <p className="advisory-p reveal d2">
-              Ha ocupado roles C-suite regionales, liderando eficiencia operativa, gobierno tecnologico, gobierno de datos, modernizacion de plataformas, automatizacion de procesos, adopcion estrategica de inteligencia artificial y ciberseguridad — siempre con impacto medible en resultados de negocio.
+              Ha ocupado roles C-suite regionales, liderando eficiencia operativa, gobierno tecnológico, gobierno de datos, modernización de plataformas, automatización de procesos, adopción estratégica de inteligencia artificial y ciberseguridad — siempre con impacto medible en resultados de negocio.
             </p>
 
             <div className="highlights reveal d3">
               <div className="hl-item">
                 <span className="hl-arrow">→</span>
-                <p className="hl-text">Direccion de equipos multidisciplinarios y portafolios de transformacion de gran escala</p>
+                <p className="hl-text">Dirección de equipos multidisciplinarios y portafolios de transformación de gran escala</p>
               </div>
               <div className="hl-item">
                 <span className="hl-arrow">→</span>
-                <p className="hl-text">Asesoramiento directo a CEOs y Boards en decisiones estrategicas complejas</p>
+                <p className="hl-text">Asesoramiento directo a CEOs y Boards en decisiones estratégicas complejas</p>
               </div>
               <div className="hl-item">
                 <span className="hl-arrow">→</span>
-                <p className="hl-text">Trayectoria ejecutiva en banca, seguros y multinacionales en toda America Latina</p>
+                <p className="hl-text">Trayectoria ejecutiva en banca, seguros y multinacionales en toda América Latina</p>
               </div>
               <div className="hl-item">
                 <span className="hl-arrow">→</span>
-                <p className="hl-text">Combinacion unica: vision estrategica de negocio y profundidad tecnica ejecutiva</p>
+                <p className="hl-text">Combinacion única: visión estratégica de negocio y profundidad tecnica ejecutiva</p>
               </div>
             </div>
 
